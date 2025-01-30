@@ -1,0 +1,13 @@
+:root {
+    --color_primary: #000;
+    --color_background: #000;
+    --color_secondary: #232323;
+    --color_tertiary: #1F1F1F;
+    --color_white: #fff;
+    --color_caracter: #B3B3B3;
+    --color_border: #B3B3B3;
+    --color_text_button: #000;
+
+    --color_input_hover: #2A2A2A;
+    --color_input_border_hover: #434343;
+}

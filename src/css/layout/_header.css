@@ -1,0 +1,166 @@
+header {
+  background-color: var(--color_primary);
+  width: 100%;
+  height: 4.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.container_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 100%;
+  cursor: pointer;
+  margin-right: 20%;
+}
+
+.logo {
+  width: 2rem;
+  height: 2rem;
+}
+
+.navbar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.icons_central_header {
+    width: 50%;
+    position: relative;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.content_right_header {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 1rem;
+}
+.button_home {
+  background-color: var(--color_secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.button_home:hover {
+  transform: scale(1.05);
+}
+
+.icon_home {
+  width: 1.3rem;
+}
+
+.container_search {
+  background-color: var(--color_secondary);
+  width: 80%;
+  min-width: 15rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  border-radius: 3rem;
+  padding: 0 1rem;
+  border: 1px solid var(--color_secondary);
+  margin-right: auto;
+}
+
+::-webkit-search-cancel-button {
+  display: none;
+}
+
+.icon_search,
+.icon_navigation {
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+.icon_navigation:hover {
+  transform: scale(1.05);
+}
+
+.input_search {
+  background-color: transparent;
+  color: var(--color_white);
+  font-size: 1rem;
+  height: 60%;
+  width: 100%;
+  border-right: 1px solid var(--color_border);
+  margin: 0 0.5rem;
+}
+
+.input_search::placeholder {
+  color: var(--color_caracter);
+}
+
+.container_search:hover {
+  background-color: var(--color_input_hover);
+  border: 1px solid var(--color_input_border_hover);
+  transition: 0.4s ease;
+}
+
+.install_box,
+.button_signin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 3rem;
+  cursor: pointer;
+  text-decoration: none;
+  flex-wrap: nowrap;
+}
+
+.install_box:hover,
+.button_signin:hover {
+  transform: scale(1.05);
+}
+
+.install_text,
+.signin_text {
+  margin-left: 0.2rem;
+  color: var(--color_caracter);
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  flex-wrap: nowrap;
+}
+
+.install_box:hover .install_text,
+.button_signin:hover .signin_text {
+  color: var(--color_white);
+}
+
+.button_login {
+  background-color: var(--color_white);
+  width: 7rem;
+  height: 3rem;
+  border-radius: 3rem;
+}
+
+.button_login:hover {
+  transform: scale(1.05);
+}
+
+.text_button {
+  color: var(--color_text_button);
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: none;
+}

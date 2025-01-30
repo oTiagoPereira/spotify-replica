@@ -1,0 +1,20 @@
+aside {
+    width: 420px;
+    height: 100%;
+    background-color: var(--color_tertiary);
+    border-radius: 0.5rem;
+}
+
+.header_aside {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+
+.title_aside {
+    color: var(--color_caracter);
+    font-size: 0.95rem;
+    font-weight: bold;
+    margin-right: auto;
+}
