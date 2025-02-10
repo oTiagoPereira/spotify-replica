@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="src/css/main.css" />
   </head>
   <body>
-    <header>
+    <header class="header_body">
       <a href="/" class="container_logo">
         <img
           src="src/assets/icons/Spotify_Primary_Logo_RGB_White.png"
@@ -65,7 +65,7 @@
 
     <main>
       <aside>
-        <div class="header_aside">
+        <header class="header_aside">
           <img
             src="src/assets/icons/icon-biblioteca.svg"
             alt="Icon Sua Biblioteca"
@@ -79,7 +79,7 @@
               class="icon_add_aside"
             />
           </a>
-        </div>
+        </header>
 
         <section class="container_content_aside">
           <div class="box_content_aside">
@@ -89,7 +89,9 @@
               <a href="#" class="button_content_aside">Criar playlist</a>
             </div>
             <div class="content_aside">
-              <h3 class="title_content_aside">Que tal seguir um podcast novo?</h3>
+              <h3 class="title_content_aside">
+                Que tal seguir um podcast novo?
+              </h3>
               <h5 class="subtitle_content_aside">
                 Avisaremos você sobre novo episódios
               </h5>
@@ -98,7 +100,7 @@
 
             <div class="custom_scrollbar">
               <div class="custom_thumb"></div>
-          </div>
+            </div>
           </div>
           <footer class="footer_aside">
             <div class="footer_content_aside">
@@ -129,19 +131,136 @@
       </aside>
 
       <section class="container_content_main">
-        
-      </section>
+        <div class="custom_scrollbar_main">
+          <div class="custom_thumb_main"></div>
+        </div>
 
+        <!-- ! Parte de artistas -->
+
+        <div class="container_cards">
+          <header class="header_cards">
+            <h2 class="title_cards">Artistas populares</h2>
+            <a href="#" class="button_cards">Mostrar tudo</a>
+          </header>
+
+          <div class="content_cards">
+            <div class="cards">
+              <img
+                src="src/assets/playlist/12.jpeg"
+                alt="artist-1"
+                class="image_artists"
+              />
+              <p class="name_artists">The Weeknd</p>
+              <p class="content_type">Artista</p>
+            </div>
+            <div class="cards">
+              <img
+                src="src/assets/playlist/12.jpeg"
+                alt="artist-1"
+                class="image_artists"
+              />
+              <p class="name_artists">The Weeknd</p>
+              <p class="content_type">Artista</p>
+            </div>
+            <div class="cards">
+              <img
+                src="src/assets/playlist/12.jpeg"
+                alt="artist-1"
+                class="image_artists"
+              />
+              <p class="name_artists">The Weeknd</p>
+              <p class="content_type">Artista</p>
+            </div>
+            <div class="cards">
+              <img
+                src="src/assets/playlist/12.jpeg"
+                alt="artist-1"
+                class="image_artists"
+              />
+              <p class="name_artists">The Weeknd</p>
+              <p class="content_type">Artista</p>
+            </div>
+            <div class="cards">
+              <img
+                src="src/assets/playlist/12.jpeg"
+                alt="artist-1"
+                class="image_artists"
+              />
+              <p class="name_artists">The Weeknd</p>
+              <p class="content_type">Artista</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ! Parte de singles e álbuns -->
+        
+        <div class="container_cards">
+          <header class="header_cards">
+            <h2 class="title_cards">Singles e álbuns que todo mundo gosta</h2>
+            <a href="#" class="button_cards">Mostrar tudo</a>
+          </header>
+
+          <div class="content_cards">
+            <div class="cards">
+              <img
+                src="src/assets/playlist/13.jpeg"
+                alt="artist-1"
+                class="image_albuns"
+              />
+              <p class="name_album">The Joe Rogan Experience</p>
+              <p class="name_album_artist">Nome Álbum</p>
+            </div>
+            <div class="cards">
+              <img
+                src="src/assets/playlist/13.jpeg"
+                alt="artist-1"
+                class="image_albuns"
+              />
+              <p class="name_album">The Joe Rogan Experience</p>
+              <p class="name_album_artist">Nome Álbum</p>
+            </div>
+            <div class="cards">
+              <img
+                src="src/assets/playlist/13.jpeg"
+                alt="artist-1"
+                class="image_albuns"
+              />
+              <p class="name_album">The Joe Rogan Experience</p>
+              <p class="name_album_artist">Nome Álbum</p>
+            </div>
+            <div class="cards">
+              <img
+                src="src/assets/playlist/13.jpeg"
+                alt="artist-1"
+                class="image_albuns"
+              />
+              <p class="name_album">The Joe Rogan Experience</p>
+              <p class="name_album_artist">Nome Álbum</p>
+            </div>
+            <div class="cards">
+              <img
+                src="src/assets/playlist/13.jpeg"
+                alt="artist-1"
+                class="image_albuns"
+              />
+              <p class="name_album">The Joe Rogan Experience</p>
+              <p class="name_album_artist">Nome Álbum</p>
+            </div>
+            
+          </div>
+      </section>
     </main>
+
     <footer class="footer_main">
       <div class="content_footer_main">
-          <h4 class="title_footer_main">Testar o Premium de graça</h4>
-          <p class="text_footer_main">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</p>
+        <h4 class="title_footer_main">Testar o Premium de graça</h4>
+        <p class="text_footer_main">
+          Inscreva-se para curtir música ilimitada e podcasts só com alguns
+          anúncios. Não precisa de cartão de crédito.
+        </p>
       </div>
 
-      <a href="#" class="button_footer_main">
-          Inscreva-se grátis
-      </a>
+      <a href="#" class="button_footer_main"> Inscreva-se grátis </a>
     </footer>
 
     <script src="src/js/events.js"></script>
