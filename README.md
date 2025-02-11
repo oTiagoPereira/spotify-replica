@@ -1,4 +1,4 @@
-# Documentação do Projeto: Réplica do Spotify (Versão Desktop)
+# Réplica do Spotify (Versão Desktop)
 
 ## Visão Geral
 Este projeto é uma réplica da interface do Spotify, desenvolvida utilizando **HTML, CSS e JavaScript**. A implementação inicial foca apenas no front-end para desktop, sem integração com APIs. Futuramente, será adicionada uma API e um framework para aprimorar a experiência do usuário.
