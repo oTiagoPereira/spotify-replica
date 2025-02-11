@@ -74,7 +74,7 @@ main {
     height: auto;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .header_cards {
@@ -111,12 +111,12 @@ main {
     width: 100%;
     height: auto;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .cards {
     width: 100%;
-    gap: 1.5rem;
+    gap: 1rem;
     padding: 0.8rem;
 }
 
@@ -133,7 +133,7 @@ main {
 .name_artists, .name_album {
     font-size: 1rem;
     font-weight: bold;
-    color: var(--color_text);
+    color: var(--color_white);
     cursor: pointer;
     margin-top: 0.5rem;
 }
@@ -150,4 +150,92 @@ main {
 .image_albuns {
     border-radius: 0.5rem;
     box-shadow: var(--box_shadow);
+}
+
+.subtitle_playlist {
+    font-size: 0.85rem;
+    color: var(--color_caracter);
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding-top: 1rem;
+}
+
+.footer_section_main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--color_border_footer_main);
+}
+
+.container_links_footer {
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 5rem;
+}
+
+.box_links_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.title_footer_main {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--color_white);
+    cursor: pointer;
+}
+
+.link_footer_main {
+    font-size: 1rem;
+    color: var(--color_caracter);
+}
+
+.link_footer_main:hover {
+    color: var(--color_white);
+    text-decoration: underline;
+}
+
+.container_social_footer {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.social_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: var(--color_secondary);
+}
+
+.social_link:hover {
+    background-color: var(--color_background_hover_links_footer);
+}
+
+.creator {
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: var(--color_caracter);
+    margin: 1rem 0 4rem 0;
+}
+
+.link_creator:hover {
+    color: var(--color_white);
+    text-decoration: underline;
 }

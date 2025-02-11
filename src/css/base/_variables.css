@@ -6,6 +6,7 @@
     --color_white: #fff;
     --color_caracter: #B3B3B3;
     --color_border: #B3B3B3;
+    --color_border_footer_main: #e1e1e128;
     --color_text_button: #000;
     --color_scroll: #e1e1e176;
     --color_scroll_hover: #cfcdcdac;
@@ -13,6 +14,7 @@
     --color_cards_hover: #242424;
     --color_input_hover: #2A2A2A;
     --color_input_border_hover: #434343;
+    --color_background_hover_links_footer: #727272;
     --color_button_hover_aside: #F0F0F0;
     --background_linear: linear-gradient(90deg, #af2896, #509bf5);
     --background_linear_main: linear-gradient(0deg, #121212, #121212, #292929);
