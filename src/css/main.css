@@ -108,6 +108,7 @@ main {
 }
 
 .content_cards {
+    container-type: inline-size;
     width: 100%;
     height: auto;
     display: flex;
@@ -118,11 +119,44 @@ main {
     width: 100%;
     gap: 1rem;
     padding: 0.8rem;
+    cursor: pointer;
 }
 
 .cards:hover {
     background-color: var(--color_cards_hover);
     border-radius: 0.5rem;
+}
+
+.cards_image {
+    width: 100%;
+    position: relative;
+}
+
+.play-button {
+    position: absolute;
+    top: 88%;
+    left: 88%;
+    transform: translate(-78%, -50%);
+    background-color: var(--color_button_play);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.cards:hover .play-button {
+    opacity: 1;
+    transform: translate(-78%, -80%) scale(1.1);
+}
+
+.cards .play-button:hover {
+    transform: translate(-78%, -80%) scale(1.15);
+    background-color: var(--color_button_play_hover);
+    transition: transform 0s;
 }
 
 .image_artists {

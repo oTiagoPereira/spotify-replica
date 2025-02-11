@@ -1,6 +1,6 @@
-.footer_main {
+.footer {
     width: max-content;
-    height: 4.5rem;
+    min-height: 4rem;
     width: 100%;
     background-image: var(--background_linear);
     display: flex;
@@ -10,26 +10,26 @@
     cursor: pointer;
 }
 
-.content_footer_main {
+.content_footer {
     display: flex;
     flex-direction: column;
 }
 
-.title_footer_main {
+.title_footer {
     color: var(--color_white);
     font-size: 0.85rem;
     font-weight: bold;
     cursor: pointer;
 }
 
-.text_footer_main {
+.text_footer {
     color: var(--color_white);
     font-size: 1rem;
     font-weight: normal;
     cursor: pointer;
 }
 
-.button_footer_main {
+.button_footer {
     background-color: var(--color_white);
     color: var(--color_text_button);
     font-weight: bold;
@@ -46,6 +46,6 @@
     text-decoration: none;
 }
 
-.button_footer_main:hover {
+.button_footer:hover {
     transform: scale(1.05);
 }
