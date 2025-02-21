@@ -73,7 +73,7 @@ aside {
 .box_content_aside {
     display: flex;
     flex-direction: column;
-    height: 290px;
+    height: 250px;
     overflow: auto;
 }
 
